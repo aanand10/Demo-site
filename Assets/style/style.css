@@ -55,6 +55,7 @@ nav .titles ul li:hover {
   color: rgb(221, 47, 87);
   font-weight: 450;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .main-container {
@@ -232,7 +233,8 @@ section.info .main-container .lower .box-4 {
 }
 section.info .main-container .lower .box-4 hr {
   width: 70px;
-  border: 2px solid #fff45a;
+  border: transparent;
+  border-top: 4px solid #fff45a;
   margin: 0 auto;
 }
 section.info .main-container .lower .box-4 span img {
