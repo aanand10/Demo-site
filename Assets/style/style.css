@@ -165,7 +165,7 @@ section.waves-down img {
 /* info section  */
 section.info {
   padding: var(--section-padding);
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: -220px;
 }
 section.info .main-container {
