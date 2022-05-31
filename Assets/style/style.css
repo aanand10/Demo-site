@@ -1,0 +1,154 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* root  */
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --section-padding: 20px 100px;
+}
+
+/* style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+section#hero {
+  /* border: 3px solid red; */
+  padding: var(--section-padding);
+  padding-bottom: 0;
+  /* background-image: url("Assets\images\bg-pattern.svg"); */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+nav {
+  /* border: 1px saddlebrown solid; */
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 30px;
+  align-items: center;
+}
+nav .logo h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+nav .logo h3 img {
+  height: 28px;
+  margin-right: 10px;
+}
+nav .titles ul {
+  display: flex;
+  align-items: center;
+}
+nav .titles ul li {
+  margin: 0 20px;
+}
+nav .titles ul li:hover {
+  color: rgb(221, 47, 87);
+  font-weight: 450;
+  text-decoration: underline;
+}
+
+.main-container {
+  /* border: 1px rgb(35, 176, 101) solid; */
+  padding: 20px 3px;
+  display: flex;
+  flex-direction: row;
+}
+.main-container .content {
+  width: 40%;
+  padding: 50px 30px;
+  /* border: 1px solid red; */
+  margin: auto 0;
+}
+.main-container .content .text {
+  font-size: 40px;
+  /* font-weight: bold; */
+}
+.main-container .content .title {
+  display: flex;
+}
+.main-container .content .title .display {
+  font-size: 70px;
+  /* border: 1px solid red; */
+}
+.main-container .content .title p {
+  font-size: 70px;
+  margin: auto 0;
+  /* border: 1px solid red; */
+  font-weight: 500;
+  margin-left: 10px;
+}
+button {
+  margin-top: 20px;
+  padding: 12px 40px;
+  font-size: 25px;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  background: rgb(248, 202, 122);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: none;
+  margin-left: -5px;
+}
+
+.main-container .img {
+  padding: 0 30px;
+  width: 60%;
+  padding: 50px 30px;
+}
+.main-container .img img {
+  width: 100%;
+}
+button:hover {
+  /*padding: 2px;
+  */
+  border: 1px solid rgba(35, 31, 31, 0.847);
+  transition: all smooth;
+  -webkit-transition: all smooth;
+  -moz-transition: all smooth;
+  -ms-transition: all smooth;
+  -o-transition: all smooth;
+  font-weight: 450;
+}
+
+/* waves divider  */
+section.waves {
+  /* border: 1px solid red; */
+  margin-top: -100px;
+}
+section.waves img {
+  height: 200px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+/* about section */
+section.about {
+  /* border: 1px solid red; */
+  padding: var(--section-padding);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+}
+section.about .text p {
+  font-size: 40px;
+}
+.bold-text {
+  font-weight: 500;
+}
