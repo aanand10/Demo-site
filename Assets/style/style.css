@@ -218,3 +218,35 @@ section.info .main-container .upper div:nth-child(1),
 .lower div:nth-child(2) {
   /* background-color: yellow; */
 }
+section.info .main-container .lower .box-3 {
+  height: auto;
+  padding: 5px;
+}
+section.info .main-container .lower .box-3 img {
+  width: 100%;
+  box-shadow: 2px 2px 5px #d2b0d3;
+}
+section.info .main-container .lower .box-4 {
+  /* border: 1px solid red; */
+  padding: 30px 20px;
+}
+section.info .main-container .lower .box-4 hr {
+  width: 70px;
+  border: 2px solid #fff45a;
+  margin: 0 auto;
+}
+section.info .main-container .lower .box-4 span img {
+  height: 70px;
+  margin: 0;
+}
+section.info .main-container .lower .box-4 span img.right {
+  height: 70px;
+  color: #ffef0d;
+  margin-left: 550px;
+}
+blockquote {
+  font-size: 30px;
+  text-align: center;
+  /* border: 1px solid red; */
+  margin: 20px;
+}
