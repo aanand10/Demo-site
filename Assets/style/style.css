@@ -152,3 +152,69 @@ section.about .text p {
 .bold-text {
   font-weight: 500;
 }
+/* waves divider  */
+section.waves-down {
+  /* border: 1px solid red; */
+  margin-top: 0;
+}
+section.waves-down img {
+  height: 300px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+/* info section  */
+section.info {
+  padding: var(--section-padding);
+  border: 1px solid red;
+  margin-top: -220px;
+}
+section.info .main-container {
+  display: flex;
+  /* border: 1px solid brown; */
+  flex-direction: column;
+  padding: 0;
+}
+section.info .main-container .upper,
+.lower {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+section.info .main-container .upper .box-1 {
+  /* background-color: azure; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+section.info .main-container .upper .box-1 p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+section.info .main-container .upper .box-1 .list {
+  border-left: 5px rgb(255, 221, 0) solid;
+  width: max-content;
+}
+section.info .main-container .upper .box-1 .list ul li {
+  font-size: 20px;
+  padding: 2px 5px;
+  letter-spacing: 1px;
+}
+section.info .main-container .upper .box-2 {
+  height: auto;
+  padding: 5px;
+}
+section.info .main-container .upper .box-2 img {
+  width: 100%;
+  box-shadow: 2px 2px 5px #d2b0d3;
+}
+section.info .main-container .upper div,
+.lower div {
+  height: auto;
+  width: 50%;
+  /* border: 1px solid red; */
+}
+section.info .main-container .upper div:nth-child(1),
+.lower div:nth-child(2) {
+  /* background-color: yellow; */
+}
